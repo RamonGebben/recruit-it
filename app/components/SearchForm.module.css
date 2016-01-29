@@ -1,0 +1,33 @@
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 756px;
+}
+
+.container h2 {
+  font-size: 5rem;
+}
+
+.container a {
+  font-size: 1.4rem;
+}
+
+.input, .button {
+    display: block;
+    padding: 0.7em;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 0.2rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+    outline: none;
+}
+
+.button {
+    background-color: transparent;
+    color: #ddd;
+    cursor: pointer;
+}
